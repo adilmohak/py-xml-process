@@ -10,7 +10,7 @@ from pathlib import Path
 
 def connect():
 	print("Connecting to the database...")
-	database = DATABASES['test']
+	database = DATABASES['default']
 	conn = psycopg2.connect(
 		dbname = database['DATABASE'], 
 		user = database['USER'], 
