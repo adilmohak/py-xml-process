@@ -1,7 +1,6 @@
 # Python XML data process
 
-Import, update, and delete old data from XML file with PostgreSQL. 
-Also download images using urls listed in the XML file
+A python script to import, update, and delete data from XML file with PostgreSQL database. 
 
 # Installation
 
